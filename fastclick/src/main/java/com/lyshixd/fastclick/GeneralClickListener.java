@@ -15,11 +15,11 @@ public abstract class GeneralClickListener implements View.OnClickListener {
 	}
 
 	@Override
-	public void onClick(View v) {
+	public void onClick(View view) {
 		if (!FastClickUtil.isFastClick(mActivitySimpleName)) {
-			onClick();
+			onExecuteClick(view);
 		}
 	}
 
-	protected abstract void onClick();
+	protected abstract void onExecuteClick(View view);
 }

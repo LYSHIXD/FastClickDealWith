@@ -32,7 +32,7 @@ implementation 'com.github.LYSHIXD:DellWithFastClick:1.0.0'
 ```
 textView.setOnClickListener(new GeneralClickListener() {
 			@Override
-			protected void onDellWithFastClick() {
+			protected void onClick(View view) {
 				// 此处为已屏蔽快速多次点击
 			}
 		});
@@ -43,7 +43,7 @@ textView.setOnClickListener(new GeneralClickListener() {
 ```
 textView.setOnClickListener(new GeneralClickListener(MainActivity.class.getSimpleName()) {
 			@Override
-			protected void onDellWithFastClick() {
+			protected void onClick(View view) {
 				// 此处为已屏蔽快速多次点击
 			}
 		});

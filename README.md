@@ -1,7 +1,7 @@
 # FastClickDealWith
 处理快速多次点击的情况，防止功能多次执行或界面多次显示
 
-## [![JitPack](https://jitpack.io/v/LYSHIXD/DellWithFastClick.svg)](https://jitpack.io/#LYSHIXD/DellWithFastClick)
+## [![Jcenter](https://dl.bintray.com/lyshixd/lyshixd/FastClickDealWith.svg)](https://dl.bintray.com/lyshixd/lyshixd/FastClickDealWith)
 
 ## 如何使用 
 
